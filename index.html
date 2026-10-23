@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+	<head>
+		<title>
+MI SUPER CHUPIGUAY WEB
+		</title>
+	<link href="icono.ico" rel="icon" />   <!-- para insertar un icono-->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="animacion.css" rel="stylesheet" type="text/css" />
+	<BIG><BIG><BIG>HOLA</BIG></BIG></BIG> <BIG><BIG><BIG>TIC</BIG></BIG></BIG> <BIG><BIG><BIG>TIC</BIG></BIG></BIG>
+	<script src="processing.js"></script><!-- para insertar un processing-->
+	<div id="info"> Al IES Condesa y a mi </div>
+	<div id="aviso"> NOS GUSTA TIC </div>
+	<div id="html"><img src="etiqueta.jpg" width="400" height="40%"></img></div>
+	<canvas id="pjsCanvas" >h</canvas>
+	<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+	</head>
+<body>
+
+	<header>ESTAMOS INTENTANDO HACER UNA WEB EN HTML</header>
+	<BR>
+	
+	TIC<BR> TIC<BR> TIC<BR>
+	<main> <br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b> 
+	<br> <i> ESTE TEXTO PEQUEÑO LO VOY A PONER EN CURSIVA </i>
+	<br> <u> Y ESTE SUBRAYADO CON MI NOMBRE: JAVIER </u>
+	<br> <mark style="background-color: lightblue; color: black;">  ESTE NO SÉ CÓMO ESTÁ </mark>
+	<!--- vamos a corregir la alineación del texto anterior con la etiqueta center --->
+	<center><br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b> 
+	<br> <i> ESTE TEXTO PEQUEÑO LO VOY A PONER EN CURSIVA </i>
+	<br> <u> Y ESTE SUBRAYADO CON MI NOMBRE: JAVIER </u>
+	<br> <mark style="background-color: springgreen; color: black;">  ESTE NO SÉ CÓMO ESTÁ </mark>
+	</center>
+	<div align="right"> <br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b> 
+	<br> <i> ESTE TEXTO PEQUEÑO LO VOY A PONER EN CURSIVA </i>
+	<br> <u> Y ESTE SUBRAYADO CON MI NOMBRE: JAVIER </u>
+	<br> <mark style="background-color: azure; color: black;">  ESTE NO SÉ CÓMO ESTÁ </mark>
+	</div>
+	<!--- para hacer un nuevo párrafo voy a usar la etiqueta p--->
+	<p> He usado la etiqueta p para hacer un nuevo párrafo. Aprovecho para escribir la historia de mi vida. <mark style="background-color: violet; color: black;">Todo empezó un 11 de mayo de 2009, cuando apareci en el mundo sin saber como. Ahora, tengo 17 años y estoy en clase de TIC. Sigo sin saber que hago aquí.</mark>Como no ocupa lo suficiente, la voy a pegar 3 veces más. <mark style="background-color: gold; color: black;">Todo empezó un 11 de mayo de 2009, cuando apareci en el mundo sin saber como. Ahora, tengo 17 años y estoy en clase de TIC. Sigo sin saber que hago aquí.</mark> <mark style="background-color: lime; color: black;">Todo empezó un 11 de mayo de 2009, cuando apareci en el mundo sin saber como. Ahora, tengo 17 años y estoy en clase de TIC. Sigo sin saber que hago aquí.</mark><mark style="background-color: aquamarine; color: black;"> Todo empezó un 11 de mayo de 2009, cuando apareci en el mundo sin saber como. Ahora, tengo 17 años y estoy en clase de TIC. Sigo sin saber que hago aquí.</mark> Gracias
+	</main>
+	<p id="puntodos">
+	<center><font color="peru"><big><big><big>AHORA VOY A HACER LISTAS</big></big></big></font></center>
+	<ul>LISTA DE LA GENTE DE CLASE</ul>
+	<br><ul><li>Primera fila sin viñeta (se pondrá una por defecto) </li>
+	<li> Me ondrá una segunda fila por defecto </li>
+	<br>
+	OTRA SEGUNDA LISTA
+	<ul><li type="circle"> primera fila con un círculo
+	<li type="square"> segunda fila con un cuadrado
+	<li type="disc"> la última va con un disco</ul>
+	<br> ¿Quieres más?
+	<ul><li type="circle"> primera fila con un círculo
+	<li type="circle"> segunda fila con un círculo
+	<li type="circle"> tercera fila con un círculo</ul>
+	<br>
+	<ul><li type="square"> primera fila con un cuadrado
+	<li type="square"> segunda fila con un cuadrado
+	<li type="square"> tercera fila con un cuadrado</ul>
+	<br>
+	<ul><li type="disc"> primera fila con un disco
+	<li type="disc"> segunda fila con un disco
+	<li type="disc"> tercera fila con un disco</ul>
+	<br> Venga vamos a hacer una mas graciosa...
+	<ul>😁 Primera fila</ul>
+	<ul>🫧 Segunda fila</ul>
+	<ul>😎 Soy tan guay</ul>
+	<br><center><font color="mediumaquamarine"><big><big><big>AHORA UNA LISTA NUMERADA</big></big></big></font></center>
+	<ol>
+		<li> Primero </li>
+		<li> Segundo </li>
+		<li> Tercero </li>
+		<li> Cuarto </li></ol><br>
+	<ol type="a"><!--- Esto es para que aparezcan en orden alfabético--->
+		<li> Primero </li>
+		<li> Segundo </li>
+		<li> Tercero </li>
+		<li> Cuarto </li></ol><br>
+	<ol type="I"><!--- Esto es para que aparezcan en números romanos--->
+		<li value="1"> Primero </li>
+		<li> Segundo </li>
+		<li> Tercero </li>
+		<li> Cuarto </li></ol><br>
+	<ol type="I"><!--- Esto es para que aparezcan en números romanos--->
+		<li value="5"> Esta empieza desde el 5 jaja </li>
+		<li> Segundo </li>
+		<li> Tercero </li>
+		<li> Cuarto </li></ol><br>
+<center>
+	<table class="tabla1">
+	<caption><b>Mi primera tabla en html sin bordes</b></caption>
+		<tr>
+			<td>celda 1</td>
+			<td>celda 2</td>
+			<td>celda 3</td></tr>
+		<tr>
+			<td>celda 4</td>
+			<td>celda 5</td>
+			<td>celda 6</td></tr>
+	</table>
+</center><br>
+<center>
+	<table border="1">
+	<caption><b>Mi primera tabla en html CON bordes</b></caption>
+		<tr>
+			<td>celda 1</td>
+			<td>celda 2</td>
+			<td>celda 3</td></tr>
+		<tr>
+			<td>celda 4</td>
+			<td>celda 5</td>
+			<td>celda 6</td></tr>
+	</table>
+</center><br>
+<center>
+	<table border="2">
+	<caption><b>Mi primera tabla en html con otros bordes</b></caption>
+		<tr>
+			<td>celda 1</td>
+			<td>celda 2</td>
+			<td>celda 3</td></tr>
+		<tr>
+			<td>celda 4</td>
+			<td>celda 5</td>
+			<td>celda 6</td></tr>
+	</table>
+</center><br>
+<center>
+	<table border="1">
+	<caption><b>Una tabla con celdas combinadas</b></caption>
+		<tr>
+			<td colspan="3">celda que combina 3 columnas</td></tr>
+			<tr>
+			<td rowspan="2">celda que combina 2 filas</td>
+			<td>celda normal</td>
+			<td>celda normal</td></tr>
+		<tr>
+			<td>celda normal</td>
+			<td>celda normal</td></tr>
+	</table>
+</center><br>
+<center><img src="etiqueta.jpg" alt="mi etiqueta" border="1" align="top" width="400" height="40%"></img></center><br>
+<center><img src="etiqueta.jpg" alt="mi etiqueta" align="right" width="400" height="100"></img></center>
+<center><big><big><big>ENLACES</big></big></big><br>
+<a href="https://www.google.com/">Pulsa aquí para acceder a Google </a><br>
+<a href="https://google.com/" target="_blank"> Pulsa aquí a Google en una ventana nueva </a><br>
+<a href="htmlcincoycss.pdf"> Descarga desed aqui el documento para elegir tema </a><br>
+<a href="abajo.html"> Desde aquí, rnlaza con otra página html </a><br>
+<a href="#puntodos"> Desde aquí, vuelco al enlace de Empezamos Lista</a><br><br><br>
+<center><big><big><big>INSERTAR UNA CANCIÓN</big></big></big><br></center>
+<center><br><audio src="cancion.mp3" controls></audio>
+<br><audio src="canciona.mp3" controls></audio>
+<br><video src="video.mp4" width="640" heigth="360" controls></video>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/zdEqVujXGdE?si=G6PqKMxObewdMadF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6033.625468029428!2d-6.473176951928521!3d40.875983685477415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3c1c3f1de67909%3A0x9e66686071a28fd8!2s37260%20Villavieja%20de%20Yeltes%2C%20Salamanca!5e0!3m2!1ses!2ses!4v1791533665481!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<br><p class="vamosaensayar"> Vamos a probar a poner un texto de otro color con unas curvitas y color de fondo distinto. </p class>
+<br><nav id="menuhorizontal">
+<ul>
+<li><a href="htmlcincoycss.pdf">HTML y CSS</li>
+<li><a href="https://google.com">Google</li>
+<li><a href="https://poki.com/es/g/papas-scooperia">Juego galletas</li>
+</ul>
+</nav><br>
+<nav id="menuD">
+			<ul>
+				<li>Menú
+					<ul>
+						<li> <a href="htmlcincoycss.pdf" target="_blank"> Manual</a></li>
+						<li> Enlace
+							<ul>
+								<li> <a href="https://es.wikipedia.org/wiki/HTML" target="_blank"> HTML</a></li>
+								<li> <a href="https://es.wikipedia.org/wiki/CSS" target="_blank"> CSS</a></li>
+							</ul>
+						</li>	
+						<li> <a href="https://es.wikipedia.org/wiki/Notepad%2B%2B" target="_blank"> Notepad</a></li>
+					</ul>
+				</li>
+			</ul>
+</nav>
+	<br><br><br><br><br>
+</body>
+	<footer>
+	<big><big>ADIOS</big></big> <br><big>TIC</big> <br>TIC
+	</footer>
+</html>
